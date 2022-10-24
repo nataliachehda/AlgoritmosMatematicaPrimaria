@@ -1,0 +1,133 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    width: auto;
+    margin: auto;
+    background-color: rgb(198, 244, 228);
+
+}
+header {
+    margin:auto;
+    width: auto;
+    height: 4,5rem;
+    text-align: center;
+}
+header h1{
+    font-family: 'Ubuntu Mono', monospace;
+    margin: auto;
+    width: auto;
+    height: 4 rem;
+    padding: 15px;
+    border: 1px solid black;
+}
+header p{
+    padding: 15px;
+    border: 1px solid black;
+}
+/*Mobile First*/
+.body {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto;
+    row-gap: 20px;
+    background-color: rgb(252, 233, 197);
+    border: 1px solid violet;
+}
+.navegador {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: rgb(252, 233, 197);
+    border: 3px solid orangered;
+}
+body section nav ul {
+    margin: auto;
+    display: grid;
+    width: auto;
+    list-style-type: none;
+    row-gap: 20px;
+    background-color: rgb(252, 233, 197);
+}
+body section nav ul li a {
+text-decoration: none;
+background-color: rgb(252, 233, 197);
+}
+.monstruo lord-icon {
+    background-color: rgb(252, 233, 197);
+}
+.monstruo {
+    background-color: rgb(252, 233, 197);;
+}
+.proposito {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(198, 244, 228);
+    margin: 15px;
+}
+.proposito p {
+    padding: 10px;
+    background-color: rgb(198, 244, 228);
+    text-align: center;
+}
+.herramientas {
+text-align: center;
+margin-top: 10px;
+}
+.titulo_secundario {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 4px;
+}
+.video {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: rgb(198, 244, 228);
+    height: 100px;
+    width: 100%;
+}
+/*pagina fracciones*/
+#image {
+    border: 1px solid black;
+    margin: 10px;
+    width: 100px; 
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+* {
+    background-color: rgb(169, 243, 248);
+}
+body {
+    background-color: rgb(169, 243, 248);
+}
+body section nav ul {
+    background-color: rgb(252, 233, 197);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 30px;
+    width: auto;
+    margin: auto;
+}  
+body section nav {
+    justify-content: space-around;
+}
+.monstruo {
+display: none;
+} 
+.proposito {
+    width: 70%;
+    align-content: center;
+    margin: auto;
+}
+.proposito p {
+    background-color: rgb(169, 243, 248);
+    text-align: center;
+}
+footer {
+    background-color: rgb(169, 243, 248)
+}
+}
