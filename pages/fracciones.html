@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grafimates</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../javascript/javascript.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+          <div class="small">
+            <canvas id="canv"></canvas>
+            <textarea id="text" onkeyup="grow(this)" placeholder="Text"></textarea>
+            <button id="submit">Submit</button>
+          </div>
+          <img id="image"/>
+      </section>
+    <div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+        <textarea id="text1">Numerador</textarea>
+        <textarea id="text2">Resultado</textarea>
+        <br>
+        <textarea id="text3">Denominador</textarea>
+        <button id="submit">Submit</button>
+        <br>Lo que escribiste aparecerá aquí:
+        <br>
+        <div id="container"></div><br>
+        Tu imagen aparecerá aquí:
+        <br>
+        <div id="image"></div>
+    </div>
+</body>
+</html>
